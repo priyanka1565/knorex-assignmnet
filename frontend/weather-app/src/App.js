@@ -48,7 +48,7 @@ const App = () => {
 
   return (
     <Container className="text-center">
-      <h1>🌈 Stylish Weather App</h1>
+      <h1>🌈Weather App</h1>
       <Row className="justify-content-center mt-4">
         <Col md={6}>
           <DropdownSelector cities={cities} onCityChange={setSelectedCity} />
